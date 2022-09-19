@@ -20,7 +20,13 @@
 // console.log(word.toLowerCase())
 
 // Separando Strings em array
-let phrase = "Eu quero viver o amor!"
-let myArray = phrase.split(" ")
-let phraseWithUnderscore = myArray.join("_")
-console.log(phraseWithUnderscore.toLowerCase())
+// let phrase = "Eu quero viver o amor!"
+// let myArray = phrase.split(" ")
+// let phraseWithUnderscore = myArray.join("_")
+// console.log(phraseWithUnderscore.toLowerCase())
+
+//Encontrando palavras em frases
+// let phrase = "Eu quero viver Amor"
+// console.log(phrase.includes("Amor"))
+
+//Criando array com construtor
