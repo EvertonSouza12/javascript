@@ -30,3 +30,6 @@
 // console.log(phrase.includes("Amor"))
 
 //Criando array com construtor
+// let myArray = new Array(`a`, `b`, `c`)
+// console.log(myArray)
+
