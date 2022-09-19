@@ -34,5 +34,36 @@
 // console.log(myArray)
 
 // Contar elementos de um array
-console.log(["a", "b" , "c", function(){return "Ola"}][3]())
-console.log(["a", "b" , "c", function(){return "Ola"}].length)
+// console.log(["a", "b" , "c", function(){return "Ola"}][3]())
+// console.log(["a", "b" , "c", function(){return "Ola"}].length)
+
+// String para array
+// let word = "manipulação"
+// console.log(Array.from(word))
+
+// Manipulando arrays
+let techs = ["html", "css", "js"]
+
+// adincionar no fim
+techs.push("nodejs")
+
+// adicionar no comeco
+techs.unshift("sql")
+
+// remover do fim
+// techs.pop()
+
+// remover do inicio
+// techs.shift()
+
+//remver alguns elementos da array
+// console.log(techs.slice(1, 3))
+
+//remover 1 ou mais elementos em qualquer posição na array
+// techs.splice(1,2)
+
+//encontrar a posição de um elemento na array
+let index = techs.indexOf(`html`)
+techs.splice(index, 1)
+
+console.log(techs)
