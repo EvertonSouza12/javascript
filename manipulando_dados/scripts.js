@@ -18,3 +18,9 @@
 // let word = "Programa é muito banca"
 // console.log(word.toUpperCase())
 // console.log(word.toLowerCase())
+
+// Separando Strings em array
+let phrase = "Eu quero viver o amor!"
+let myArray = phrase.split(" ")
+let phraseWithUnderscore = myArray.join("_")
+console.log(phraseWithUnderscore.toLowerCase())
