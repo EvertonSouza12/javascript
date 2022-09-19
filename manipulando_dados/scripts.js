@@ -33,3 +33,6 @@
 // let myArray = new Array(`a`, `b`, `c`)
 // console.log(myArray)
 
+// Contar elementos de um array
+console.log(["a", "b" , "c", function(){return "Ola"}][3]())
+console.log(["a", "b" , "c", function(){return "Ola"}].length)
