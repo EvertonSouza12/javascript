@@ -37,7 +37,7 @@ function handleKeyPress(){
 
 function handleResetClick(){
   toggleScreen()
-  xAttempts = 1
+  xAttempts
   randomNumber
 }
 
@@ -55,7 +55,7 @@ function handleKeyPress(){
 function handleKeyPress (e) {
   if (e.key == 'Enter' && screen1.classList.contains('hide')) {
     handleResetClick()
-    xAttempts = 1
+    xAttempts
     randomNumber
   }
 }
